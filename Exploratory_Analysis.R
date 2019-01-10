@@ -1,5 +1,5 @@
 library(plyr)
-# function that take data frame as input and then output summary statistics tables
+# handy function that take data frame as input and then output summary statistics tables
 # for numerical columns and categorical columns respectively.
 summary_statistics <- function(df) {
   list.of.cols <- colnames(df)
